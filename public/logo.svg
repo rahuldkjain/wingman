@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60">
+  <defs>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#334155;stop-opacity:1" />
+    </linearGradient>
+     <linearGradient id="icon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22D3EE;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Icon Mark -->
+  <g transform="translate(10, 5) scale(0.1)">
+      <!-- Dark Background Container -->
+      <rect x="0" y="0" width="512" height="512" rx="128" fill="#0F172A"/>
+      <!-- Wing Shape -->
+      <g transform="translate(106, 136) scale(1.2)">
+        <path d="M20 150 L120 200 L120 50 Z" fill="url(#icon-grad)" opacity="0.9"/>
+        <path d="M120 200 L250 150 L250 0 L80 80 Z" fill="url(#icon-grad)"/>
+        <path d="M120 210 L230 170 L140 250 Z" fill="#FFFFFF" opacity="0.3"/>
+      </g>
+  </g>
+  
+  <!-- Text -->
+  <text x="70" y="42" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="28" fill="url(#text-grad)" letter-spacing="-0.5">Wingman</text>
+</svg>

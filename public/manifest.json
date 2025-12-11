@@ -5,16 +5,22 @@
   "description": "Your flight search assistant.",
   "action": {
     "default_popup": "index.html",
-    "default_title": "Wingman"
+    "default_title": "Wingman",
+    "default_icon": {
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
+    }
   },
   "permissions": [
     "storage",
     "tabs"
   ],
   "icons": {
-    "16": "vite.svg",
-    "48": "vite.svg",
-    "128": "vite.svg"
+    "16": "icon-16.png",
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
   }
 }
-

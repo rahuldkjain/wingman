@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="neon-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22D3EE;stop-opacity:1" /> <!-- Cyan -->
+      <stop offset="100%" style="stop-color:#818CF8;stop-opacity:1" /> <!-- Indigo -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark Modern Background -->
+  <rect x="0" y="0" width="512" height="512" rx="128" fill="#0F172A"/>
+  
+  <!-- Abstract Geometric Wing/W Shape -->
+  <g transform="translate(106, 136) scale(1.2)">
+    <!-- Left Wing Part -->
+    <path d="M20 150 L120 200 L120 50 Z" fill="url(#neon-grad)" opacity="0.9"/>
+    <!-- Main Wing Part -->
+    <path d="M120 200 L250 150 L250 0 L80 80 Z" fill="url(#neon-grad)"/>
+    <!-- Speed Trail / Lower Accent -->
+    <path d="M120 210 L230 170 L140 250 Z" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+</svg>
